@@ -1,0 +1,21 @@
+{
+  "name": "template-backend",
+  "version": "1.0.0",
+  "description": "Template backend para criação de projetos NodeJS",
+  "main": "server.js",
+  "repository": "https://github.com/professordezani/template-backend.git",
+  "author": "Prof. Dr. Henrique Dezani <dezani@fatecriopreto.edu.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
